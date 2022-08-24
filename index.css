@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;   
+    /* font-family: 'Inter', sans-serif;    */
     background-color: black;
 }
 .header {
@@ -40,4 +40,143 @@
 #profile{
     background-color: #FFA78D;
     border-radius: 6.66px;
+}
+.BHT {
+    position: relative;
+    padding: 2px;
+    /* justify-content: center;
+    align-items: center; */
+    margin-top: 100px;
+    margin-bottom: 70px;
+    display: inline-block;
+    border-radius: 14px;
+    padding: 0 62px;
+    /* border-width: 2px; */
+    /* border-style: solid; */
+    border: 2px #fff solid;
+    border-image: linear-gradient(180deg, #FDC667 0%, #9D58A6 100%) 1;
+    width: 2279px;
+    height: fit-content;
+    /* border: 2px transparent;
+    border-radius: 5px; */
+    /* background-image: linear-gradient(black, transparent), linear-gradient(180deg, #FDC667 0%, #9D58A6 100%); */
+    /* background-origin: border-box;
+    background-clip: content-box, border-box;*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  
+  /*
+  margin-left: -25%;
+  margin-top: -25%;
+  */
+
+  /* 
+  */
+  
+  /*
+  Not even necessary really. 
+  e.g. Height could be left out!
+  */
+  /* width: 40%;
+  height: 50%; */
+}
+/* .BHT::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: red;
+} */
+
+.BHT h1 {
+    background: -webkit-linear-gradient(90.24deg, #FFCA66 0.21%, #B6499B 49.61%, #5586C5 97.74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 44px;
+    color: #ffff;
+    margin: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 117px;
+    margin-top: 63px;
+    margin-bottom: 63px
+}
+.table {
+    width: 100%;
+    height: 688px;
+    color: white;
+    padding-left: 66px;
+    padding-right: 100px;
+    font-size: 20px;
+    border-collapse: collapse;
+    /* display: none; */
+}
+.BHT_parrent {
+    display: flex;
+    width: 100vw;  
+}
+td {
+    padding: 50px;
+    position: relative;
+    text-align: start;
+}
+
+.n_color {
+    color : #FFCA66;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 44px;
+}
+
+.s_r1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 44px;
+}
+.table_f {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.table_f_e {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;    
+}
+.notes {
+    color : #E1957B;
+    display: flex;
+    align-items: center;
+}
+
+.border {
+    border-bottom: 1px solid  rgba(255, 255, 255, 0.1); 
+}
+.border_l {
+
+    /* border-left: 2px solid  rgba(255, 255, 255, 0.1);  */
+}
+.border_l::after {
+    /* border-bottom: 2px solid  rgba(255, 255, 255, 0.1);  */
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 16px;
+    background-color: rgba(255, 255, 255, 0.1);
+
 }
