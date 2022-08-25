@@ -13,63 +13,352 @@
 
 </head>
 <body>
-    <header class="header">
-        <div class="logo"><img src="./logo.svg" alt=""></div>
-        <div class="head_r">
-            <img class="editm" src="mod.svg" alt="">
-            <img class="editm" src="notification.svg" alt="">
-            <img id="profile" class="editm" src="profile.svg" alt="">
-            <div class="editm">
-                <p > Welcome back, <br><h2>Name</h2></p>
+    <div class="container">
+        <!-- header -->
+        <header class="header">
+            <div style="width: 50px; height: 50px;" class="empty"></div>
+            <div class="logo"><img src="./logo.svg" alt=""></div>
+            <div class="head_r">
+                <img class="editm cursor" src="mod.svg" alt="">
+                <img class="editm  cursor" src="notification.svg" alt="">
+                <img id="profile" class="editm" src="profile.svg" alt="">
+                <div class="editm">
+                    <p> Welcome back, <br><h2>Name</h2></p>
+                </div>
+                <img class="editm cursor" src="arrow.svg" alt="">
             </div>
-            <img class="editm" src="arrow.svg" alt="">
+        </header>
+        <div class="BHT_parrent">
+        <!-- content 1 -->
+        <div class="content1">
+            <div class="BHT">
+                <div class="title">
+                    <div class="part1">
+                        <img style="color: yellow;" src="Union.svg" alt="">
+                        <h1 >BOUTIQUES  HIGH TECH</h1>
+                    </div>
+                    <img onclick="displaynone('table1', 'arrow1')"; class="arrow_d" id="arrow1" src="arrowd.svg" alt="" >
+                </div>
+                <!-- first table-->
+                <table class="table" id="table1">
+                    <tbody>
+                        <tr>
+                            <td class="table_f">&nbsp;Boutique</td>
+                            <td class="table_f_e">Limite&nbsp;</td>
+                            <td class="table_f">&nbsp;Article Max</td>
+                            <td class="table_f_e">&nbsp;Fraix</td>
+                            <td class="table_f">&nbsp;Details</td>
+                            <td class="table_f_e">&nbsp;Notes</td>
+                        </tr>
+                            <tr class="border">
+                            <td class="s_r1 border_l">&nbsp;APPLE</td>
+                            <td class="n_color border_l">&nbsp;5 999&euro;</td>
+                            <td class="table_f border_l">&nbsp;3 Articles</td>
+                            <td class="n_color border_l">&nbsp;30%</td>
+                            <td class="table_f border_l">&nbsp;1-4 Jours</td>
+                            <td class="table_f notes"><img style="padding: 10px;" src="alert.svg" alt="">Ne pas ouvrir le paquet d&rsquo;emballage / Ne pas allumer le produit<br />Un seul type de produit accept&eacute;, max 3 articles.</td>
+                        </tr>
+                            <tr class="border">
+                            <td class="s_r1 border_l">&nbsp;AMAZON.ES</td>
+                            <td class="n_color  border_l">8 000&euro;&nbsp;</td>
+                            <td class="table_f border_l">&nbsp;3 Articles</td>
+                            <td class="n_color border_l">&nbsp;29%</td>
+                            <td class="table_f border_l">&nbsp;1-5 Jours</td>
+                            <td class="table_f notes"><img style="padding: 10px;" src="alert.svg" alt="">&nbsp;Contacter @MadeINFR avant toute validation de commande</td>
+                        </tr>
+                            <tr class="border"> 
+                            <td class="s_r1 border_l">&nbsp;AMAZON.DE</td>
+                            <td class="n_color border_l">&nbsp;6 000&euro;</td>
+                            <td class="table_f border_l">&nbsp;&nbsp;3 Articles</td>
+                            <td class="n_color border_l">29%&nbsp;</td>
+                            <td class="table_f border_l">&nbsp;3-7 Jours</td>
+                            <td class="table_f notes"><img style="padding: 10px;" src="alert.svg" alt="">&nbsp;Contacter @MadeINFT avant toute validation de commande <br />(Limite de QUOTA)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
-    </header>
-    <div class="BHT_parrent">
-        <div class="BHT">
-            <h1 >BOUTIQUES  HIGH TECH</h1>
-            <table class="table">
-            <tbody>
-            <tr>
-            <td class="table_f">&nbsp;Boutique</td>
-            <td class="table_f_e">Limite&nbsp;</td>
-            <td class="table_f">&nbsp;Article Max</td>
-            <td class="table_f_e">&nbsp;Fraix</td>
-            <td class="table_f">&nbsp;Details</td>
-            <td class="table_f_e">&nbsp;Notes</td>
-            </tr>
-            <tr class="border">
-            <td class="s_r1">&nbsp;APPLE</td>
-            <td class="n_color border_l">&nbsp;5 999&euro;</td>
-            <td class="table_f border_l">&nbsp;3 Articles</td>
-            <td class="n_color border_l">&nbsp;30%</td>
-            <td class="table_f border_l">&nbsp;1-4 Jours</td>
-            <td class="table_f notes border_l"><img style="padding: 10px;" src="alert.svg" alt="">Ne pas ouvrir le paquet d&rsquo;emballage / Ne pas allumer le produit<br />Un seul type de produit accept&eacute;, max 3 articles.</td>
-            </tr>
-            <tr class="border">
-            <td class="s_r1">&nbsp;AMAZON.ES</td>
-            <td class="n_color  border_l">8 000&euro;&nbsp;</td>
-            <td class="table_f border_l">&nbsp;3 Articles</td>
-            <td class="n_color border_l">&nbsp;29%</td>
-            <td class="table_f border_l">&nbsp;1-5 Jours</td>
-            <td class="table_f notes border_l"><img style="padding: 10px;" src="alert.svg" alt="">&nbsp;Contacter @MadeINFR avant toute validation de commande</td>
-            </tr>
-            <tr class="border"> 
-            <td class="s_r1">&nbsp;AMAZON.DE</td>
-            <td class="n_color border_l">&nbsp;6 000&euro;</td>
-            <td class="table_f border_l">&nbsp;&nbsp;3 Articles</td>
-            <td class="n_color border_l">29%&nbsp;</td>
-            <td class="table_f border_l">&nbsp;3-7 Jours</td>
-            <td class="table_f notes border_l"><img style="padding: 10px;" src="alert.svg" alt="">&nbsp;Contacter @MadeINFT avant toute validation de commande <br />(Limite de QUOTA)</td>
-            </tr>
-            </tbody>
-            </table>
-            <!-- DivTable.com -->
+            
+        <!-- content 2 -->
+            <div class="BHT">
+                <div class="title">
+                    <div class="part1">
+                        <img style="color: yellow;" src="Union.svg" alt="">
+                        <h1 >BOUTIQUES HIGH TECH (PAYPAL)</h1>
+                    </div>
+                    <img onclick="displaynone('table2', 'arrow2')"; class="arrow_d" id="arrow2" src="arrowd.svg" alt="" >
+                </div>
+                <!-- second table-->
+                <table class="table" id="table2">
+                    <tbody>
+                        <tr>
+                            <td class="table_f">&nbsp;Boutique</td>
+                            <td class="table_f_e">Limite&nbsp;</td>
+                            <td class="table_f">&nbsp;Article Max</td>
+                            <td class="table_f_e">&nbsp;Fraix</td>
+                            <td class="table_f">&nbsp;Details</td>
+                            <td class="table_f_e">&nbsp;Notes</td>
+                        </tr>
+                        <tr class="border">
+                            <td class="s_r1 border_l">&nbsp;FNAC</td>
+                            <td class="n_color border_l">No Limit</td>
+                            <td class="table_f border_l">&nbsp;3 Articles</td>
+                            <td class="n_color border_l">&nbsp;35%</td>
+                            <td class="table_f border_l">&nbsp;1-2 mois</td>
+                            <td class="table_f notes2"><img style="padding: 10px;" src="alert.svg" alt="">Contacter en privé (Requis: Avoir deja réaliser un refund)</td>
+                        </tr>
+                        <tr class="border">
+                            <td class="s_r1 border_l">&nbsp;DARTY</td>
+                            <td class="n_color  border_l">No Limit</td>
+                            <td class="table_f border_l">&nbsp;3 Articles</td>
+                            <td class="n_color border_l">&nbsp;35%</td>
+                            <td class="table_f border_l">&nbsp;1-2 mois</td>
+                            <td class="table_f notes2"><img style="padding: 10px;" src="alert.svg" alt="">&nbsp;Contacter en privé (Requis: Avoir deja réaliser un refund)</td>
+                        </tr>
+                        <tr class="border"> 
+                            <td class="s_r1 border_l">&nbsp;LDLC</td>
+                            <td class="n_color border_l">No Limit</td>
+                            <td class="table_f border_l">&nbsp;&nbsp;3 Articles</td>
+                            <td class="n_color border_l">35%&nbsp;</td>
+                            <td class="table_f border_l">&nbsp;1-2 mois</td>
+                            <td class="table_f notes2"><img style="padding: 10px;" src="alert.svg" alt="">&nbsp;Contacter en privé (Requis: Avoir deja réaliser un refund)</td>
+                        </tr>
+                        <tr class="border"> 
+                            <td class="s_r1 border_l">&nbsp;BOULANGER</td>
+                            <td class="n_color border_l">No Limit</td>
+                            <td class="table_f border_l">&nbsp;&nbsp;3 Articles</td>
+                            <td class="n_color border_l">35%&nbsp;</td>
+                            <td class="table_f border_l">&nbsp;1-2 mois</td>
+                            <td class="table_f notes2"><img style="padding: 10px;" src="alert.svg" alt="">&nbsp;Contacter en privé (Requis: Avoir deja réaliser un refund)</td>
+                        </tr>
+                        <tr class="border"> 
+                            <td class="s_r1 border_l">&nbsp;SAMSUNG</td>
+                            <td class="n_color border_l">No Limit</td>
+                            <td class="table_f border_l">&nbsp;&nbsp;3 Articles</td>
+                            <td class="n_color border_l">35%&nbsp;</td>
+                            <td class="table_f border_l">&nbsp;1-2 mois</td>
+                            <td class="table_f notes2"><img style="padding: 10px;" src="alert.svg" alt="">&nbsp;Contacter en privé (Requis: Avoir deja réaliser un refund)</td>
+                        </tr>
+                        <tr class="border"> 
+                            <td class="s_r1 border_l">&nbsp;HP</td>
+                            <td class="n_color border_l">No Limit</td>
+                            <td class="table_f border_l">&nbsp;&nbsp;3 Articles</td>
+                            <td class="n_color border_l">35%&nbsp;</td>
+                            <td class="table_f border_l">&nbsp;1-2 mois</td>
+                            <td class="table_f notes2"><img style="padding: 10px;" src="alert.svg" alt="">&nbsp;Contacter en privé (Requis: Avoir deja réaliser un refund)</td>
+                        </tr>
+                        <tr class="border"> 
+                            <td class="s_r1 border_l">&nbsp;LENOVO</td>
+                            <td class="n_color border_l">No Limit</td>
+                            <td class="table_f border_l">&nbsp;&nbsp;3 Articles</td>
+                            <td class="n_color border_l">35%&nbsp;</td>
+                            <td class="table_f border_l">&nbsp;1-2 mois</td>
+                            <td class="table_f notes2"><img style="padding: 10px;" src="alert.svg" alt="">&nbsp;Contacter en privé (Requis: Avoir deja réaliser un refund)</td>
+                        </tr>
+                        <tr class="border"> 
+                            <td class="s_r1 border_l">&nbsp;NVIDIA</td>
+                            <td class="n_color border_l">No Limit</td>
+                            <td class="table_f border_l">&nbsp;&nbsp;3 Articles</td>
+                            <td class="n_color border_l">35%&nbsp;</td>
+                            <td class="table_f border_l">&nbsp;1-2 mois</td>
+                            <td class="table_f notes2"><img style="padding: 10px;" src="alert.svg" alt="">&nbsp;Contacter en privé (Requis: Avoir deja réaliser un refund)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- content 3 -->
+            <div class="BHT">
+                <div class="title">
+                    <div class="part1">
+                        <img style="color: yellow;" src="Union.svg" alt="">
+                        <h1 >BOUTIQUES VETEMENTS</h1>
+                    </div>
+                    <img onclick="displaynone('table3', 'arrow3')"; class="arrow_d" id="arrow3" src="arrowd.svg" alt="" >
+                </div>
+                <!-- third table-->
+                <table class="table" id="table3">
+                    <tbody>
+                        <tr>
+                            <td class="table_f">&nbsp;Boutique</td>
+                            <td class="table_f_e">Limite&nbsp;</td>
+                            <td class="table_f">&nbsp;Article Max</td>
+                            <td class="table_f_e">&nbsp;Fraix</td>
+                            <td class="table_f">&nbsp;Details</td>
+                            <td class="table_f_e">&nbsp;Notes</td>
+                        </tr>
+                        <tr class="border">
+                            <td class="s_r1 border_l">&nbsp;Adidas</td>
+                            <td class="n_color border_l">4999€</td>
+                            <td class="table_f border_l">&nbsp;10 Article</td>
+                            <td class="n_color border_l">&nbsp;25%</td>
+                            <td class="table_f border_l">&nbsp;2-3 Semaines</td>
+                            <td class="table_f notes2"><img style="padding: 10px;" src="alert.svg" alt="">Ne pas ouvrir le paquet / Ne pas allumer le produit</td>
+                        </tr>
+                        <tr class="border">
+                            <td class="s_r1 border_l">&nbsp;Lacoste</td>
+                            <td class="n_color  border_l">1499€</td>
+                            <td class="table_f border_l">&nbsp;10 Article</td>
+                            <td class="n_color border_l">&nbsp;30%</td>
+                            <td class="table_f border_l">&nbsp;2-3 Semaines</td>
+                            <td class="table_f notes2"><img style="padding: 10px;" src="alert.svg" alt="">&nbsp;Livraison assurée par UPS, remplir le formulaire quand le colier est en transit.</td>
+                        </tr>
+                        <tr class="border"> 
+                            <td class="s_r1 border_l">&nbsp;Calvin Klein</td>
+                            <td class="n_color border_l">1499€</td>
+                            <td class="table_f border_l">&nbsp;&nbsp;20 Article</td>
+                            <td class="n_color border_l">25%&nbsp;</td>
+                            <td class="table_f border_l">&nbsp;3 Semaines</td>
+                            <td class="table_f notes2"><img style="padding: 10px;" src="alert.svg" alt="">&nbsp;Ne pas ouvrir le paquet / Ne pas allumer le produit</td>
+                        </tr>
+                        <tr class="border"> 
+                            <td class="s_r1 border_l">&nbsp;Hollister</td>
+                            <td class="n_color border_l">1499€</td>
+                            <td class="table_f border_l">&nbsp;&nbsp;20 Article</td>
+                            <td class="n_color border_l">25%&nbsp;</td>
+                            <td class="table_f border_l">&nbsp;1 Semaine</td>
+                            <td class="table_f notes2"><img style="padding: 10px;" src="alert.svg" alt="">&nbsp;Ne pas ouvrir le paquet / Ne pas allumer le produit</td>
+                        </tr>
+                        <tr class="border"> 
+                            <td class="s_r1 border_l">&nbsp;Levi’s</td>
+                            <td class="n_color border_l">1499€</td>
+                            <td class="table_f border_l">&nbsp;&nbsp;20 Article/td>
+                            <td class="n_color border_l">25%&nbsp;</td>
+                            <td class="table_f border_l">&nbsp;2-3 Semaines/td>
+                            <td class="table_f notes2"><img style="padding: 10px;" src="alert.svg" alt="">&nbsp;Ne pas ouvrir le paquet / Ne pas allumer le produit</td>
+                        </tr>
+                        <tr class="border"> 
+                            <td class="s_r1 border_l">&nbsp;Tommy</td>
+                            <td class="n_color border_l">1499€</td>
+                            <td class="table_f border_l">&nbsp;&nbsp;20 Article</td>
+                            <td class="n_color border_l">25%&nbsp;</td>
+                            <td class="table_f border_l">&nbsp;3 Semaines</td>
+                            <td class="table_f notes2"><img style="padding: 10px;" src="alert.svg" alt="">&nbsp;Ne pas ouvrir le paquet / Ne pas allumer le produit</td>
+                        </tr>
+                        <tr class="border"> 
+                            <td class="s_r1 border_l">&nbsp;Shein</td>
+                            <td class="n_color border_l">1999€</td>
+                            <td class="table_f border_l">&nbsp;&nbsp;20 Article</td>
+                            <td class="n_color border_l">25%&nbsp;</td>
+                            <td class="table_f border_l">&nbsp;1 Semaine</td>
+                            <td class="table_f notes2"><img style="padding: 10px;" src="alert.svg" alt="">&nbsp;Ne pas ouvrir le paquet / Ne pas allumer le produit</td>
+                        </tr>
+                        <tr class="border"> 
+                            <td class="s_r1 border_l">&nbsp;Sephora</td>
+                            <td class="n_color border_l">1999€</td>
+                            <td class="table_f border_l">&nbsp;&nbsp;20 Article</td>
+                            <td class="n_color border_l">25%&nbsp;</td>
+                            <td class="table_f border_l">&nbsp;1 Semaine</td>
+                            <td class="table_f notes2"><img style="padding: 10px;" src="alert.svg" alt="">&nbsp;Ne pas ouvrir le paquet / Ne pas allumer le produit</td>
+                        </tr>
+                        <tr class="border"> 
+                            <td class="s_r1 border_l">&nbsp;Vicroria Secret</td>
+                            <td class="n_color border_l">1999€</td>
+                            <td class="table_f border_l">&nbsp;&nbsp;20 Article</td>
+                            <td class="n_color border_l">25%&nbsp;</td>
+                            <td class="table_f border_l">&nbsp;1 Semaine</td>
+                            <td class="table_f notes2"><img style="padding: 10px;" src="alert.svg" alt="">&nbsp;Ne pas ouvrir le paquet / Ne pas allumer le produit</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- content 4 -->
+            <div class="BHT">
+                <div class="title">
+                    <div class="part1">
+                        <img style="color: yellow;" src="Union.svg" alt="">
+                        <h1 >BOUTIQUES DESIGNER</h1>
+                    </div>
+                    <img onclick="displaynone('table4', 'arrow4')"; class="arrow_d" id="arrow4" src="arrowd.svg" alt="" >
+                </div>
+                <!-- table 4-->
+                <table class="table" id="table4">
+                    <tbody>
+                        <tr>
+                            <td class="table_f">&nbsp;Boutique</td>
+                            <td class="table_f_e">Limite&nbsp;</td>
+                            <td class="table_f">&nbsp;Article Max</td>
+                            <td class="table_f_e">&nbsp;Fraix</td>
+                            <td class="table_f">&nbsp;Details</td>
+                            <td class="table_f_e">&nbsp;Notes</td>
+                        </tr>
+                        <tr class="border">
+                            <td class="s_r1 border_l">&nbsp;GUCCI</td>
+                            <td class="n_color border_l">No Limit</td>
+                            <td class="table_f border_l">&nbsp;3 Articles</td>
+                            <td class="n_color border_l">&nbsp;35%</td>
+                            <td class="table_f border_l">&nbsp;1-2 mois</td>
+                            <td class="table_f notes2"><img style="padding: 10px;" src="alert.svg" alt="">Contacter en privé (Requis: Avoir deja réaliser un refund)</td>
+                        </tr>
+                        <tr class="border">
+                            <td class="s_r1 border_l">&nbsp;DIOR</td>
+                            <td class="n_color  border_l">No Limit</td>
+                            <td class="table_f border_l">&nbsp;3 Articles</td>
+                            <td class="n_color border_l">&nbsp;35%</td>
+                            <td class="table_f border_l">&nbsp;1-2 mois</td>
+                            <td class="table_f notes2"><img style="padding: 10px;" src="alert.svg" alt="">&nbsp;Contacter en privé (Requis: Avoir deja réaliser un refund)</td>
+                        </tr>
+                        <tr class="border"> 
+                            <td class="s_r1 border_l">&nbsp;LOUIS VUITTON</td>
+                            <td class="n_color border_l">No Limit</td>
+                            <td class="table_f border_l">&nbsp;&nbsp;3 Articles</td>
+                            <td class="n_color border_l">35%&nbsp;</td>
+                            <td class="table_f border_l">&nbsp;1-2 mois</td>
+                            <td class="table_f notes2"><img style="padding: 10px;" src="alert.svg" alt="">&nbsp;Contacter en privé (Requis: Avoir deja réaliser un refund)</td>
+                        </tr>
+                        <tr class="border"> 
+                            <td class="s_r1 border_l">&nbsp;PRADA</td>
+                            <td class="n_color border_l">No Limit</td>
+                            <td class="table_f border_l">&nbsp;&nbsp;3 Articles</td>
+                            <td class="n_color border_l">35%&nbsp;</td>
+                            <td class="table_f border_l">&nbsp;1-2 mois</td>
+                            <td class="table_f notes2"><img style="padding: 10px;" src="alert.svg" alt="">&nbsp;Contacter en privé (Requis: Avoir deja réaliser un refund)</td>
+                        </tr>
+                        <tr class="border"> 
+                            <td class="s_r1 border_l">&nbsp;HERMES</td>
+                            <td class="n_color border_l">No Limit</td>
+                            <td class="table_f border_l">&nbsp;&nbsp;3 Articles</td>
+                            <td class="n_color border_l">35%&nbsp;</td>
+                            <td class="table_f border_l">&nbsp;1-2 mois</td>
+                            <td class="table_f notes2"><img style="padding: 10px;" src="alert.svg" alt="">&nbsp;Contacter en privé (Requis: Avoir deja réaliser un refund)</td>
+                        </tr>
+                        <tr class="border"> 
+                            <td class="s_r1 border_l">&nbsp;CARTIER</td>
+                            <td class="n_color border_l">No Limit</td>
+                            <td class="table_f border_l">&nbsp;&nbsp;3 Articles</td>
+                            <td class="n_color border_l">35%&nbsp;</td>
+                            <td class="table_f border_l">&nbsp;1-2 mois</td>
+                            <td class="table_f notes2"><img style="padding: 10px;" src="alert.svg" alt="">&nbsp;Contacter en privé (Requis: Avoir deja réaliser un refund)</td>
+                        </tr>
+                        <tr class="border"> 
+                            <td class="s_r1 border_l">&nbsp;MONCLER</td>
+                            <td class="n_color border_l">No Limit</td>
+                            <td class="table_f border_l">&nbsp;&nbsp;3 Articles</td>
+                            <td class="n_color border_l">35%&nbsp;</td>
+                            <td class="table_f border_l">&nbsp;1-2 mois</td>
+                            <td class="table_f notes2"><img style="padding: 10px;" src="alert.svg" alt="">&nbsp;Contacter en privé (Requis: Avoir deja réaliser un refund)</td>
+                        </tr>
+                        <tr class="border"> 
+                            <td class="s_r1 border_l">&nbsp;GIVENCHY</td>
+                            <td class="n_color border_l">No Limit</td>
+                            <td class="table_f border_l">&nbsp;&nbsp;3 Articles</td>
+                            <td class="n_color border_l">35%&nbsp;</td>
+                            <td class="table_f border_l">&nbsp;1-2 mois</td>
+                            <td class="table_f notes2"><img style="padding: 10px;" src="alert.svg" alt="">&nbsp;Contacter en privé (Requis: Avoir deja réaliser un refund)</td>
+                        </tr>
+                        <tr class="border"> 
+                            <td class="s_r1 border_l">&nbsp;CHANNEL</td>
+                            <td class="n_color border_l">No Limit</td>
+                            <td class="table_f border_l">&nbsp;&nbsp;3 Articles</td>
+                            <td class="n_color border_l">35%&nbsp;</td>
+                            <td class="table_f border_l">&nbsp;1-2 mois</td>
+                            <td class="table_f notes2"><img style="padding: 10px;" src="alert.svg" alt="">&nbsp;Contacter en privé (Requis: Avoir deja réaliser un refund)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
-
-
-
+    <!-- script -->
     <script src="index.js"></script>
 </body>
 </html>
