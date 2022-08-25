@@ -7,30 +7,29 @@
 .container {
     display: flex;
     flex-direction: column;
+
 }
-.header {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    margin-top: 70px;
-    margin-bottom: 60px;
-}
+
 .head_r {
+    position: relative;
     display: flex;
+    font-family: 'Inter', sans-serif;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-end;;
     font-size: 10px;
     color: antiquewhite;
+    margin-bottom: 150px;
+
 }
 .logo {
-    width: 60px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 60px;
+        /* position: absolute; */
+    /* left: 49%; */
+    /* top: 17%; */
+    /* transform: translate(-49%); */
+    z-index: 2;
+    margin: 0 auto;
+    position: relative;
+    top: 45px;
 }
 .editm {
     margin-left: 6px;
@@ -40,7 +39,7 @@
     cursor: pointer;
 }
 .editm p{
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 10px;
@@ -48,7 +47,7 @@
 }
 
 .editm h2 {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -63,7 +62,7 @@
 .BHT {
     display: inline-block;
     border-radius: 14px;
-    padding: 0 62px;
+    padding: 0 15px;
     height: fit-content;
     position: relative;
     margin-left: auto;
@@ -75,10 +74,10 @@
     background-image : linear-gradient(90deg, rgba(253,198,103,1) 23%, rgba(157,88,166,1) 49%, rgba(85,134,197,1) 79%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 39px;
+    font-size: 30px;
     line-height: 44px;
     color: #ffff;
     margin-left: 10px;
@@ -94,7 +93,7 @@
 }
 .table {
     width: 100%;
-    height: 688px;
+    height: fit-content;
     color: white;
     padding-left: 66px;
     padding-right: 100px;
@@ -117,23 +116,29 @@
 .BHT_parrent {
     margin-left: auto;
     margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
     display: flex;
     flex-direction: column;
     width: fit-content;
     margin-top: 100px;
 }
 td {
-    padding: 50px;
     position: relative;
     text-align: start;
+    min-height: max-content;
+    min-width: max-content;
+    padding: 30px;
+    font-size: 12px;
+    
 }
 
 .n_color {
     color : #FFCA66;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    /* font-size: 20px; */
     line-height: 44px;
 }
 
@@ -141,38 +146,34 @@ td {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 22px;
+    /* font-size: 22px; */
     line-height: 44px;
 }
 .table_f {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 19px;
+    /* font-size: 19px; */
 }
 
 .table_f_e {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;    
+    /* font-size: 18px;     */
 }
 .notes {
-    color : #E1957B;
-    display: flex;
-    align-items: center;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    
-}
-.notes2 {
+  
     color : #E1957B;
     display: flex;
     align-items: center;
     left: 50%;
     top: 50%;
     transform: translate(-50%);
+    
+}
+.notes2 {
+    
     
 }
 
@@ -210,3 +211,66 @@ td {
     border-radius: 14px;
     margin-bottom: 50px;
 }
+
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    
+  }
+
