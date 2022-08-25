@@ -64,13 +64,13 @@
 .BHT {
     position: relative;
     padding: 2px;
-    margin-top: 30px;
-    margin-bottom: 34px;
+    /* margin-top: 30px;
+    margin-bottom: 34px; */
     display: inline-block;
     border-radius: 14px;
     padding: 0 62px;
-    border: 2px #fff solid;
-    border-image: linear-gradient(180deg, #FDC667 0%, #9D58A6 100%) 1;
+    /* border: 2px #fff solid;
+    border-image: linear-gradient(180deg, #FDC667 0%, #9D58A6 100%) 1; */
     height: fit-content;
     position: relative;
     margin-left: auto;
@@ -210,4 +210,11 @@ td {
     padding: 17px;
     background-image: linear-gradient(104.01deg, #FFCA66 -44.48%, #B6499B 76.11%, #5586C5 193.6%);
     border-radius: 50px;
+}
+.content {
+    width: 100%;
+    background-image: linear-gradient(180deg, #FDC667 0%, #9D58A6 100%) ;
+    padding: 2px;
+    border-radius: 14px;
+    margin-bottom: 50px;
 }
