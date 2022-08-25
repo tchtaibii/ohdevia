@@ -126,7 +126,8 @@
     margin-right: auto;
     display: flex;
     flex-direction: column;
-    width: fit-content;  
+    width: fit-content;
+    margin-top: 100px;
 }
 td {
     padding: 50px;
@@ -201,12 +202,12 @@ td {
     justify-content: space-between;
     width: 100%;
     height: auto;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     align-items: center;
 }
 .arrow_d {
     cursor: pointer;
-    margin-right: 100px;
+    /* margin-right: 100px; */
     padding: 17px;
     background-image: linear-gradient(104.01deg, #FFCA66 -44.48%, #B6499B 76.11%, #5586C5 193.6%);
     border-radius: 50px;
