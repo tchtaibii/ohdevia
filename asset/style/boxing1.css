@@ -1,0 +1,28 @@
+.title_u {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin: 0 auto;
+}
+.h1title {
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+.h2title {
+    margin: 0 auto;
+	font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 44px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.header {
+    display: flex;
+    width: 100%;
+}
