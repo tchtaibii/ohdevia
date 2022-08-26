@@ -1,9 +1,20 @@
 .title_u {
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: fit-content;
     margin: 0 auto;
 }
+.logo {
+    top: 0;
+    margin: 0 auto;
+    margin-top: -12px;
+    padding-left: 278.2px;
+}
+.head_r{
+    padding-right: 67px;
+
+}
+
 .h1title {
     margin: 0 auto;
     font-family: 'Inter', sans-serif;
@@ -44,7 +55,9 @@
     margin: auto;
 }
 .big_c {
-    margin-top: 50px;
+    margin: 0 auto;
+    margin-top:120px;
+    margin-bottom: 80px;
 }
 
 .box:hover{
@@ -52,8 +65,35 @@
 }
 .borderbox {
     width: fit-content;
-    margin: 50px;
-    background-image: linear-gradient(180deg, #FDC667 0%, #9D58A6 100%);
+    margin: 20px 30px;
+    background-image: linear-gradient(90deg, rgba(253,198,103,1) 23%, rgba(157,88,166,1) 49%, rgba(85,134,197,1) 79%);
     border-radius: 10px;
     padding: 2px;
 }
+.header2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 100%;
+}
+
+@media (min-width: 51px) and (max-width: 480px) {
+    
+    .cont {
+        flex-direction: column;
+    }
+    .h1title {
+        font-size: 30px;
+    }
+    .head_r {
+        margin-bottom: 80px;
+        padding-right: 0;
+    }
+    .logo {
+        margin: 0 0;
+        margin-top: -12px;
+        padding-left: 0;
+    }
+  }
