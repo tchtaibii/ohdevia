@@ -6,6 +6,8 @@
     flex-direction: column;
     width: fit-content;
     height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 .code {
     width: 401px;
@@ -19,6 +21,9 @@
 }
 .scan_c{
     display: flex;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 .ic_sc {
@@ -28,4 +33,80 @@
 }
 .code:focus {
     outline: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 9px;
+    width: 401px;
+    height: 340px;
+    background-color: #1d1e23;
+    border-radius: 8px;
+  }
+  .imgf{
+    Width : 46.75px;
+    height: 38.25px;
+    margin: auto;
+    line-height: 170px;
+    color: #ffffff;
+    font-family: Arial;
+    margin-top: -251px;
+  }
+
+  form input{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    margin-bottom: 40px;
+  }
+  form button{
+    margin: 0;
+    position: relative;
+    top: 72px;
+    color: #fff;
+    background-image: linear-gradient(89.77deg, #FFCA66 -67.59%, #B6499B 54.01%, #5586C5 172.49%);;
+    border: none;
+    width: 100%;
+    height: 35px;
+    margin-top: -62px;
+    cursor: pointer;
+    /* margin-left: -4px; */
+    border-radius: 13.696px;
+    transition: all .2s ease;
+    outline: none;
+  }
+  form button:hover{
+    background: #1D1E23;
+  }
+  form button:active{
+    border:0;
+  }
+  .h1titlen {
+    font-size: 13px;
+    margin-bottom: 2px;
+    line-height: 0;
+  }
+  .h2titlen {
+    margin-top: 1px;
+    font-size: 13px;
+  }
+
+  .titlenew{
+    position: relative;
+    bottom: 55px;
+  }
+
+.mbc {
+    margin-bottom: 170px;
+}
+
+.payez {
+    width: 15.81px;
+    position: relative;
+    left: 235px;
+    top: 49px;
 }
