@@ -1,0 +1,31 @@
+.t_m {
+    margin-top: 70px;
+}
+.cont42 {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+}
+.code {
+    width: 401px;
+    height: 57px;
+    padding-left: 20px;
+    border-radius: 13.696px;
+    border: 1px #2A2B32 solid;
+    color: white;
+    font-family: 'Inter';
+    background-color: #1D1E23;
+}
+.scan_c{
+    display: flex;
+
+}
+.ic_sc {
+    position: relative;
+    margin: auto;
+    right: 50px;
+}
+.code:focus {
+    outline: none;
+}
