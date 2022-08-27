@@ -10,26 +10,32 @@
     margin-right: auto;
 }
 .code {
-    width: 401px;
+    width: 87%;
     height: 57px;
     padding-left: 20px;
     border-radius: 13.696px;
-    border: 1px #2A2B32 solid;
+    /* border: 1px #2A2B32 solid; */
     color: white;
     font-family: 'Inter';
     background-color: #1D1E23;
+    /* margin-left: 0px; */
+    border: none;
+    overflow: hidden;
 }
 .scan_c{
     display: flex;
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
+    background: #1d1e23;
+    border-radius: 13.696px;
+    border: 1px #2A2B32 solid;
 
 }
 .ic_sc {
     position: relative;
     margin: auto;
-    right: 50px;
 }
 .code:focus {
     outline: none;
@@ -101,7 +107,9 @@ form{
   }
 
 .mbc {
+    margin: 0 auto;
     margin-bottom: 170px;
+
 }
 
 .payez {
