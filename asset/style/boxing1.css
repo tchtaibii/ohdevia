@@ -79,7 +79,7 @@
     width: 100%;
 }
 
-@media (min-width: 51px) and (max-width: 480px) {
+@media (min-width: 51px) and (max-width: 648px) {
     
     .cont {
         flex-direction: column;

@@ -1,5 +1,6 @@
 .t_m {
     margin-top: 70px;
+    margin-bottom: 50px;
 }
 .cont42 {
     display: flex;
@@ -50,7 +51,7 @@ form{
     background-color: #1d1e23;
     border-radius: 8px;
   }
-  .imgf{
+.imgf{
     Width : 46.75px;
     height: 38.25px;
     margin: auto;
@@ -60,7 +61,7 @@ form{
     margin-top: -251px;
   }
 
-  form input{
+form input{
     margin: 0;
     padding: 0;
     width: 100%;
@@ -69,7 +70,7 @@ form{
     opacity: 0;
     margin-bottom: 40px;
   }
-  form button{
+form button{
     margin: 0;
     position: relative;
     top: 72px;
@@ -85,23 +86,23 @@ form{
     transition: all .2s ease;
     outline: none;
   }
-  form button:hover{
+form button:hover{
     background: #1D1E23;
   }
-  form button:active{
+form button:active{
     border:0;
   }
-  .h1titlen {
+.h1titlen {
     font-size: 13px;
     margin-bottom: 2px;
     line-height: 0;
   }
-  .h2titlen {
+.h2titlen {
     margin-top: 1px;
     font-size: 13px;
   }
 
-  .titlenew{
+.titlenew{
     position: relative;
     bottom: 55px;
   }
@@ -111,7 +112,6 @@ form{
     margin-bottom: 170px;
 
 }
-
 .payez {
     width: 15.81px;
     position: relative;
